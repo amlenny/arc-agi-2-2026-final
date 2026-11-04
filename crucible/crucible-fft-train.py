@@ -47,7 +47,7 @@ ap.add_argument("--master-dtype", default="fp32", choices=["fp32", "bf16"],
                      "master copy and casts to bf16 for forward/backward (fft-fsdp.yaml mixed_precision "
                      "bf16). bf16: the old behaviour -- AdamW steps bf16 weights directly, and at lr ~1e-5 "
                      "most updates are below bf16's resolution at the weight's value and round away "
-                     "(the same failure the LoRA trainer had: 48% of lora_A updates lost at 2e-5).")
+                     "(the same failure the LoRA trainer had: 48%% of lora_A updates lost at 2e-5).")
 ap.add_argument("--grad-ckpt", default="off", choices=["on", "off"])
 ap.add_argument("--compile", default="off", choices=["on", "off"])
 ap.add_argument("--probe", type=int, default=0,
