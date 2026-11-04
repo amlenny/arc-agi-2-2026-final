@@ -1,0 +1,10 @@
+# Versions the corpus, packing, soup and kernel self-test steps were checked with (Python 3.12+).
+# Training ran on Colab A100 runtimes with the image's preinstalled packages; those versions were not recorded.
+# The Kaggle kernel installs unsloth + flash-attn from the public kernel sorokin/pip-install-unsloth-flash-patch.
+torch==2.10.0
+transformers==5.15.0
+accelerate==1.14.0
+safetensors==0.8.0
+tokenizers==0.22.2
+peft==0.20.0
+numpy==2.5.2

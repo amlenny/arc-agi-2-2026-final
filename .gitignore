@@ -1,0 +1,16 @@
+# Inputs and build products stay out of the repo.
+crucible/data-*/
+crucible/runs/
+corpus/synthetic/
+corpus/synthetic-archive/
+corpus/synthetic-breadth/*
+!corpus/synthetic-breadth/_MANIFEST-breadth.json
+corpus/synthetic-breadth-*/
+corpus/ours-fresh-*/
+corpus/real-*-corpus/
+corpus/*-corpus/
+corpus/picks-*.json
+corpus/breadth/logs/
+corpus/evals/lineage/lineage.sqlite
+__pycache__/
+*.safetensors

@@ -1,0 +1,24 @@
+{
+ "note": "Model lineage for corpus/lineage-query.py. A model has seen everything its ancestors saw plus its own runs' dirs.",
+ "models": {
+  "FFT-002": {
+   "parent": "HOP3",
+   "dirs": []
+  },
+  "HOP3": {
+   "parent": "BASE-NV",
+   "dirs": [
+    "hop3-corpus/blocks"
+   ]
+  },
+  "BASE-NV": {
+   "parent": null,
+   "dirs": [],
+   "seen_all_pools": [
+    "nvarc",
+    "real-arc2",
+    "real-concept"
+   ]
+  }
+ }
+}

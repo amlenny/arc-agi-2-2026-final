@@ -1,0 +1,113 @@
+{
+ "stamp": "corpus",
+ "lane": "MIDDLE BAND \u2014 unsolved and unclassified by neighborhood-split.json",
+ "rule": "Within each BAND, task ids sorted lexicographically; first half derivation-eligible, second half permanent holdout. Odd counts give the larger half to HOLDOUT. Identical to make-neighborhood-split.py so the two lanes stay comparable.",
+ "authoring_rule": "Derive from ANY midband task. Scoring runs on the semi-private and private sets, never on the public evaluation split, so authoring from the public 120 cannot contaminate the score -- NVARC trained on 609 of the 1000 ARC-AGI-2 tasks. The earlier eligible/holdout split was a house convention and is retired. Measurement of a trained adapter moves to HELD-OUT INSTANCES of each authored mechanic plus external sets (ARC-AGI-1 evaluation, ConceptARC), which cost no benchmark tasks.",
+ "no_overlap_with": "neighborhood-split.json \u2014 every task here was excluded from it",
+ "bands": {
+  "wrong_shape": {
+   "tasks": 6,
+   "derivation_eligible": [
+    "20a9e565",
+    "89565ca0",
+    "898e7135",
+    "a32d8b75",
+    "b0039139",
+    "f931b4a8"
+   ],
+   "permanent_holdout": [],
+   "accuracies": {
+    "20a9e565": null,
+    "89565ca0": null,
+    "898e7135": null,
+    "a32d8b75": null,
+    "b0039139": null,
+    "f931b4a8": null
+   }
+  },
+  "acc_75_90": {
+   "tasks": 9,
+   "derivation_eligible": [
+    "0934a4d8",
+    "581f7754",
+    "64efde09",
+    "cb2d8a2c",
+    "da515329",
+    "db695cfb",
+    "e87109e9",
+    "edb79dae",
+    "eee78d87"
+   ],
+   "permanent_holdout": [],
+   "accuracies": {
+    "0934a4d8": 0.778,
+    "581f7754": 0.757,
+    "64efde09": 0.886,
+    "cb2d8a2c": 0.821,
+    "da515329": 0.882,
+    "db695cfb": 0.897,
+    "e87109e9": 0.885,
+    "edb79dae": 0.862,
+    "eee78d87": 0.875
+   }
+  },
+  "acc_50_75": {
+   "tasks": 4,
+   "derivation_eligible": [
+    "13e47133",
+    "4c7dc4dd",
+    "7b5033c1",
+    "8698868d"
+   ],
+   "permanent_holdout": [],
+   "accuracies": {
+    "13e47133": 0.582,
+    "4c7dc4dd": 0.722,
+    "7b5033c1": 0.68,
+    "8698868d": 0.718
+   }
+  },
+  "acc_under_50": {
+   "tasks": 4,
+   "derivation_eligible": [
+    "21897d95",
+    "269e22fb",
+    "7b3084d4",
+    "abc82100"
+   ],
+   "permanent_holdout": [],
+   "accuracies": {
+    "21897d95": 0.137,
+    "269e22fb": 0.475,
+    "7b3084d4": 0.469,
+    "abc82100": 0.492
+   }
+  }
+ },
+ "ALL_DERIVATION_ELIGIBLE": [
+  "0934a4d8",
+  "13e47133",
+  "20a9e565",
+  "21897d95",
+  "269e22fb",
+  "4c7dc4dd",
+  "581f7754",
+  "64efde09",
+  "7b3084d4",
+  "7b5033c1",
+  "8698868d",
+  "89565ca0",
+  "898e7135",
+  "a32d8b75",
+  "abc82100",
+  "b0039139",
+  "cb2d8a2c",
+  "da515329",
+  "db695cfb",
+  "e87109e9",
+  "edb79dae",
+  "eee78d87",
+  "f931b4a8"
+ ],
+ "ALL_PERMANENT_HOLDOUT": []
+}

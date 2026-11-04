@@ -1,0 +1,2002 @@
+{
+"type_sequence_as_colour_row": {
+"rank": 1,
+"median_nll": 2.2161,
+"n": 3
+},
+"dot_groups_sum_digit_row": {
+"rank": 2,
+"median_nll": 2.02896,
+"n": 3
+},
+"legend_colour_count_digit_row": {
+"rank": 3,
+"median_nll": 1.93022,
+"n": 3
+},
+"region_areas_row": {
+"rank": 4,
+"median_nll": 1.78668,
+"n": 3
+},
+"glyphs_sorted_by_type_row": {
+"rank": 5,
+"median_nll": 1.77676,
+"n": 3
+},
+"ref_direction_counts_bar": {
+"rank": 6,
+"median_nll": 1.75065,
+"n": 3
+},
+"pascal_rows_mod_ten_continue": {
+"rank": 7,
+"median_nll": 1.72573,
+"n": 3
+},
+"legend_distinct_shape_count_swatch": {
+"rank": 8,
+"median_nll": 1.63702,
+"n": 3
+},
+"border_vs_interior_count_pair": {
+"rank": 9,
+"median_nll": 1.63445,
+"n": 3
+},
+"colour_tophalf_bothalf_count_table": {
+"rank": 10,
+"median_nll": 1.58387,
+"n": 3
+},
+"diagonal_half_colour_count_table": {
+"rank": 11,
+"median_nll": 1.55588,
+"n": 3
+},
+"colour_lefthalf_righthalf_count_table": {
+"rank": 12,
+"median_nll": 1.49881,
+"n": 3
+},
+"hole_count_digest_row": {
+"rank": 13,
+"median_nll": 1.43372,
+"n": 3
+},
+"single_hole_shape_count_bar": {
+"rank": 14,
+"median_nll": 1.42929,
+"n": 3
+},
+"colour_cellcount_digit_column": {
+"rank": 15,
+"median_nll": 1.42338,
+"n": 3
+},
+"legend_colour_count_maxsize_table": {
+"rank": 16,
+"median_nll": 1.39736,
+"n": 3
+},
+"quadrant_richness_distinct_colour_row": {
+"rank": 17,
+"median_nll": 1.39596,
+"n": 3
+},
+"blocks_to_palette_columns": {
+"rank": 18,
+"median_nll": 1.3874,
+"n": 3
+},
+"slope_pair_encoded_as_single_colour": {
+"rank": 19,
+"median_nll": 1.37218,
+"n": 3
+},
+"ninths_fill_density_digit_grid": {
+"rank": 20,
+"median_nll": 1.31829,
+"n": 3
+},
+"accordion_fold_count_layers_to_bar": {
+"rank": 21,
+"median_nll": 1.30247,
+"n": 3
+},
+"legend_colour_count_avgsize_table": {
+"rank": 22,
+"median_nll": 1.29747,
+"n": 3
+},
+"ring_and_figure8_tally_bars": {
+"rank": 23,
+"median_nll": 1.29103,
+"n": 3
+},
+"swatch_and_count_digit_rows": {
+"rank": 24,
+"median_nll": 1.27983,
+"n": 3
+},
+"sandpile_topple_until_stable": {
+"rank": 25,
+"median_nll": 1.27207,
+"n": 3
+},
+"colour_quadrant_count_table": {
+"rank": 26,
+"median_nll": 1.2562,
+"n": 3
+},
+"legend_colour_digit_count_column": {
+"rank": 27,
+"median_nll": 1.22948,
+"n": 3
+},
+"empty_region_perimeter_bar": {
+"rank": 28,
+"median_nll": 1.18381,
+"n": 3
+},
+"legend_quadrant_object_count_2x2": {
+"rank": 29,
+"median_nll": 1.14157,
+"n": 3
+},
+"top_row_colour_counts_two_row_summary": {
+"rank": 30,
+"median_nll": 1.1265,
+"n": 3
+},
+"fold_vertical_then_horizontal_quarter_overlap_cancels": {
+"rank": 31,
+"median_nll": 1.07251,
+"n": 3
+},
+"legend_missing_colours_row": {
+"rank": 32,
+"median_nll": 1.05328,
+"n": 3
+},
+"colours_only_in_left_row": {
+"rank": 33,
+"median_nll": 1.02836,
+"n": 3
+},
+"colour_quadrant_rank_table": {
+"rank": 34,
+"median_nll": 1.01968,
+"n": 3
+},
+"downscale_3x3_distinct_colour_count": {
+"rank": 35,
+"median_nll": 1.00922,
+"n": 3
+},
+"legend_colour_smallest_object_table": {
+"rank": 36,
+"median_nll": 1.00638,
+"n": 3
+},
+"legend_object_colour_cellcount_digits": {
+"rank": 37,
+"median_nll": 0.99593,
+"n": 3
+},
+"quadrant_object_centroid_count_digits": {
+"rank": 38,
+"median_nll": 0.97877,
+"n": 3
+},
+"hidden_rectangle_count_row": {
+"rank": 39,
+"median_nll": 0.9077,
+"n": 3
+},
+"row_colour_count_table": {
+"rank": 40,
+"median_nll": 0.9052,
+"n": 3
+},
+"run_length_encode_row": {
+"rank": 41,
+"median_nll": 0.90394,
+"n": 3
+},
+"colours_only_in_right_row": {
+"rank": 42,
+"median_nll": 0.89072,
+"n": 3
+},
+"fitting_piece_count_bar": {
+"rank": 43,
+"median_nll": 0.88777,
+"n": 3
+},
+"colour_size_table_counts": {
+"rank": 44,
+"median_nll": 0.88011,
+"n": 3
+},
+"holes_per_object_bars": {
+"rank": 45,
+"median_nll": 0.85241,
+"n": 3
+},
+"legend_colour_presence_row9": {
+"rank": 46,
+"median_nll": 0.81736,
+"n": 3
+},
+"reachable_marker_count_column": {
+"rank": 47,
+"median_nll": 0.80033,
+"n": 3
+},
+"object_count_parity_square": {
+"rank": 48,
+"median_nll": 0.79198,
+"n": 3
+},
+"legend_colour_rightmost_object_column": {
+"rank": 49,
+"median_nll": 0.77351,
+"n": 3
+},
+"panel_key_colour_count_digit_grid": {
+"rank": 50,
+"median_nll": 0.7469,
+"n": 3
+},
+"selector_marks_knockout_cell_in_dominant_colour_map": {
+"rank": 51,
+"median_nll": 0.74517,
+"n": 3
+},
+"legend_quadrant_dominant_colour_2x2": {
+"rank": 52,
+"median_nll": 0.73776,
+"n": 3
+},
+"colours_common_both_row": {
+"rank": 53,
+"median_nll": 0.73435,
+"n": 3
+},
+"legend_colour_count_parity_table": {
+"rank": 54,
+"median_nll": 0.73144,
+"n": 3
+},
+"fitting_pieces_per_hole_bars": {
+"rank": 55,
+"median_nll": 0.72595,
+"n": 3
+},
+"template_rotation_match_count_bar": {
+"rank": 56,
+"median_nll": 0.72208,
+"n": 3
+},
+"key_digit_sets_downscale_factor": {
+"rank": 57,
+"median_nll": 0.71794,
+"n": 3
+},
+"pair_count_to_row": {
+"rank": 58,
+"median_nll": 0.71249,
+"n": 3
+},
+"degree_sequence_row": {
+"rank": 59,
+"median_nll": 0.71036,
+"n": 3
+},
+"heading_count_bar_chart": {
+"rank": 60,
+"median_nll": 0.70513,
+"n": 3
+},
+"runs_to_length_digits": {
+"rank": 61,
+"median_nll": 0.70103,
+"n": 3
+},
+"colour_band_presence_bitmap": {
+"rank": 62,
+"median_nll": 0.68492,
+"n": 3
+},
+"checkered_vs_striped_rectangles_count_bars": {
+"rank": 63,
+"median_nll": 0.68052,
+"n": 3
+},
+"region_count_row": {
+"rank": 64,
+"median_nll": 0.68023,
+"n": 3
+},
+"domino_chain_to_row": {
+"rank": 65,
+"median_nll": 0.67523,
+"n": 3
+},
+"ring8_colours_to_row_clockwise": {
+"rank": 66,
+"median_nll": 0.66902,
+"n": 3
+},
+"colour_count_above_mean_flag_column": {
+"rank": 67,
+"median_nll": 0.66899,
+"n": 3
+},
+"legend_object_colour_strip_reading_order": {
+"rank": 68,
+"median_nll": 0.66428,
+"n": 3
+},
+"digit_row_unrolled_to_runs": {
+"rank": 69,
+"median_nll": 0.65541,
+"n": 3
+},
+"fold_horizontal_then_vertical_quarter_lower_wins": {
+"rank": 70,
+"median_nll": 0.65518,
+"n": 3
+},
+"texture_row_and_column_periods_as_bars": {
+"rank": 71,
+"median_nll": 0.64434,
+"n": 3
+},
+"scatter_dots_count_per_quadrant_bar": {
+"rank": 72,
+"median_nll": 0.64419,
+"n": 3
+},
+"objects_per_colour_bars": {
+"rank": 73,
+"median_nll": 0.64363,
+"n": 3
+},
+"row_cell_counts_as_digit_column": {
+"rank": 74,
+"median_nll": 0.6429,
+"n": 3
+},
+"type_counts_to_bars": {
+"rank": 75,
+"median_nll": 0.63705,
+"n": 3
+},
+"colour_presence_quadrant_bitmap": {
+"rank": 76,
+"median_nll": 0.63688,
+"n": 3
+},
+"panel_distinct_colour_count_digit_grid": {
+"rank": 77,
+"median_nll": 0.6344,
+"n": 3
+},
+"scale_factor_between_panels_to_bar": {
+"rank": 78,
+"median_nll": 0.63244,
+"n": 3
+},
+"block_cell_count_digits": {
+"rank": 79,
+"median_nll": 0.63065,
+"n": 3
+},
+"legend_colour_border_touch_table": {
+"rank": 80,
+"median_nll": 0.62915,
+"n": 3
+},
+"quadrant_dominant_colour_2x2": {
+"rank": 81,
+"median_nll": 0.6066,
+"n": 3
+},
+"height_bars_to_digit_row": {
+"rank": 82,
+"median_nll": 0.60519,
+"n": 3
+},
+"stacking_order_colour_column": {
+"rank": 83,
+"median_nll": 0.59674,
+"n": 3
+},
+"objects_ranked_by_distance_to_corner": {
+"rank": 84,
+"median_nll": 0.58799,
+"n": 3
+},
+"total_hole_count_as_bar": {
+"rank": 85,
+"median_nll": 0.58693,
+"n": 3
+},
+"row_half_winner_column": {
+"rank": 86,
+"median_nll": 0.58364,
+"n": 3
+},
+"legend_band_dominant_colour_column": {
+"rank": 87,
+"median_nll": 0.57966,
+"n": 3
+},
+"life_two_steps": {
+"rank": 88,
+"median_nll": 0.56474,
+"n": 3
+},
+"accordion_fold_strip_overlap_third_colour": {
+"rank": 89,
+"median_nll": 0.55604,
+"n": 3
+},
+"line_counts_two_bars": {
+"rank": 90,
+"median_nll": 0.55575,
+"n": 3
+},
+"hole_count_histogram_rows": {
+"rank": 91,
+"median_nll": 0.55196,
+"n": 3
+},
+"fold_vertical_then_horizontal_quarter_upper_wins": {
+"rank": 92,
+"median_nll": 0.54439,
+"n": 3
+},
+"count_leftright_extra_cells_row": {
+"rank": 93,
+"median_nll": 0.54424,
+"n": 3
+},
+"accordion_fold_strip_overlap_upper_wins": {
+"rank": 94,
+"median_nll": 0.54128,
+"n": 3
+},
+"colours_by_frequency_row_desc": {
+"rank": 95,
+"median_nll": 0.53948,
+"n": 3
+},
+"legend_colour_first_appearance_rank": {
+"rank": 96,
+"median_nll": 0.53872,
+"n": 3
+},
+"legend_unique_colours_ascending_column": {
+"rank": 97,
+"median_nll": 0.53802,
+"n": 3
+},
+"tally_symmetric_vs_asymmetric_objects": {
+"rank": 98,
+"median_nll": 0.53684,
+"n": 3
+},
+"selector_values_sort_panels_ascending": {
+"rank": 99,
+"median_nll": 0.53311,
+"n": 3
+},
+"selector_two_marks_overlay_panels_or": {
+"rank": 100,
+"median_nll": 0.52477,
+"n": 3
+},
+"ninths_dominant_colour_grid": {
+"rank": 101,
+"median_nll": 0.52149,
+"n": 3
+},
+"total_glyph_count_bar": {
+"rank": 102,
+"median_nll": 0.52035,
+"n": 3
+},
+"fold_vertical_then_horizontal_quarter_overlap_third_colour": {
+"rank": 103,
+"median_nll": 0.51564,
+"n": 3
+},
+"fold_vertical_count_overlap_cells_to_row": {
+"rank": 104,
+"median_nll": 0.50505,
+"n": 3
+},
+"key_table_overlay_crop_to_highlight": {
+"rank": 105,
+"median_nll": 0.50179,
+"n": 3
+},
+"component_colours_listed_by_size": {
+"rank": 106,
+"median_nll": 0.49903,
+"n": 3
+},
+"objects_times_colours_segmented_bar": {
+"rank": 107,
+"median_nll": 0.49563,
+"n": 3
+},
+"total_empty_area_as_bar": {
+"rank": 108,
+"median_nll": 0.48023,
+"n": 3
+},
+"panels_dominant_colour_row": {
+"rank": 109,
+"median_nll": 0.47946,
+"n": 3
+},
+"crop_unique_shape_glyph": {
+"rank": 110,
+"median_nll": 0.45253,
+"n": 3
+},
+"count_same_size_matches_as_column_bar": {
+"rank": 111,
+"median_nll": 0.44946,
+"n": 3
+},
+"cells_slide_diagonally_to_bottom_right": {
+"rank": 112,
+"median_nll": 0.4488,
+"n": 3
+},
+"cluster_piece_counts_as_bars": {
+"rank": 113,
+"median_nll": 0.44574,
+"n": 3
+},
+"objects_to_colour_row": {
+"rank": 114,
+"median_nll": 0.44553,
+"n": 3
+},
+"immigration_life_one_step": {
+"rank": 115,
+"median_nll": 0.44018,
+"n": 3
+},
+"palette_sorted_by_last_appearance": {
+"rank": 116,
+"median_nll": 0.43678,
+"n": 3
+},
+"colour_object_count_histogram": {
+"rank": 117,
+"median_nll": 0.42755,
+"n": 3
+},
+"legend_swatch_column_by_column_order": {
+"rank": 118,
+"median_nll": 0.42398,
+"n": 3
+},
+"selector_two_marks_overlay_panels_or_cropped": {
+"rank": 119,
+"median_nll": 0.42357,
+"n": 3
+},
+"weave_under_crossing_count_bar_vertical": {
+"rank": 120,
+"median_nll": 0.42072,
+"n": 3
+},
+"most_frequent_colour_bar": {
+"rank": 121,
+"median_nll": 0.41213,
+"n": 3
+},
+"overlay_vector_offset_then_merge": {
+"rank": 122,
+"median_nll": 0.40985,
+"n": 3
+},
+"cells_count_same_colour_8_neighbours": {
+"rank": 123,
+"median_nll": 0.40711,
+"n": 3
+},
+"shapes_total_distinct_count_bar": {
+"rank": 124,
+"median_nll": 0.3959,
+"n": 3
+},
+"count_colour_matches_as_square": {
+"rank": 125,
+"median_nll": 0.39577,
+"n": 3
+},
+"frame_item_counts_as_bars": {
+"rank": 126,
+"median_nll": 0.39533,
+"n": 3
+},
+"legend_swatch_row_first_appearance": {
+"rank": 127,
+"median_nll": 0.39034,
+"n": 3
+},
+"palette_sorted_by_cellcount_desc": {
+"rank": 128,
+"median_nll": 0.38266,
+"n": 3
+},
+"gravity_down_then_left": {
+"rank": 129,
+"median_nll": 0.38149,
+"n": 3
+},
+"shapes_count_difference_bar": {
+"rank": 130,
+"median_nll": 0.3784,
+"n": 3
+},
+"legend_shape_swatch_count_table": {
+"rank": 131,
+"median_nll": 0.37458,
+"n": 3
+},
+"crop_hole_with_no_fitting_piece": {
+"rank": 132,
+"median_nll": 0.3742,
+"n": 3
+},
+"lines_sorted_by_slope_into_column": {
+"rank": 133,
+"median_nll": 0.37302,
+"n": 3
+},
+"legend_swatch_row_by_frequency": {
+"rank": 134,
+"median_nll": 0.36992,
+"n": 3
+},
+"panel_dominant_colour_layout": {
+"rank": 135,
+"median_nll": 0.3685,
+"n": 3
+},
+"colour_cell_histogram_columns": {
+"rank": 136,
+"median_nll": 0.36512,
+"n": 3
+},
+"overlap_count_histogram_bar": {
+"rank": 137,
+"median_nll": 0.36362,
+"n": 3
+},
+"count_colour_matches_as_row_bar": {
+"rank": 138,
+"median_nll": 0.35619,
+"n": 3
+},
+"panels_overlay_then_outline": {
+"rank": 139,
+"median_nll": 0.34981,
+"n": 3
+},
+"count_any_orientation_matches_as_bar": {
+"rank": 140,
+"median_nll": 0.34912,
+"n": 3
+},
+"colours_by_frequency_column_asc": {
+"rank": 141,
+"median_nll": 0.3468,
+"n": 3
+},
+"panels_sorted_by_fill_count": {
+"rank": 142,
+"median_nll": 0.34345,
+"n": 3
+},
+"crop_most_common_rotation_family": {
+"rank": 143,
+"median_nll": 0.34242,
+"n": 3
+},
+"selector_single_mark_outputs_panel_rotated_90cw": {
+"rank": 144,
+"median_nll": 0.33849,
+"n": 3
+},
+"bar_repeated_per_dot_alternating": {
+"rank": 145,
+"median_nll": 0.33186,
+"n": 3
+},
+"roll_columns_down_by_index": {
+"rank": 146,
+"median_nll": 0.3314,
+"n": 3
+},
+"objects_row_by_size_recolour_rank": {
+"rank": 147,
+"median_nll": 0.3301,
+"n": 3
+},
+"path_length_bar": {
+"rank": 148,
+"median_nll": 0.32676,
+"n": 3
+},
+"anim_frame_count_to_bar": {
+"rank": 149,
+"median_nll": 0.32005,
+"n": 3
+},
+"object_count_square_majority": {
+"rank": 150,
+"median_nll": 0.3185,
+"n": 3
+},
+"panel_majority_half_flag_grid": {
+"rank": 151,
+"median_nll": 0.3162,
+"n": 3
+},
+"row_mode_margin_digit_column": {
+"rank": 152,
+"median_nll": 0.31092,
+"n": 3
+},
+"shapes_unique_colour_row": {
+"rank": 153,
+"median_nll": 0.30917,
+"n": 3
+},
+"panels_identical_to_first_flag": {
+"rank": 154,
+"median_nll": 0.30807,
+"n": 3
+},
+"largest_minus_second_largest_bar": {
+"rank": 155,
+"median_nll": 0.30722,
+"n": 3
+},
+"objects_sorted_by_size_column": {
+"rank": 156,
+"median_nll": 0.30663,
+"n": 3
+},
+"key_table_chain_three_vstack": {
+"rank": 157,
+"median_nll": 0.30594,
+"n": 3
+},
+"weave_over_crossing_count_bar": {
+"rank": 158,
+"median_nll": 0.3043,
+"n": 3
+},
+"crop_piece_rotated_to_fit_hole": {
+"rank": 159,
+"median_nll": 0.29999,
+"n": 3
+},
+"crop_shape_unique_under_rotation": {
+"rank": 160,
+"median_nll": 0.29809,
+"n": 3
+},
+"count_exact_matches_as_row_bar": {
+"rank": 161,
+"median_nll": 0.29245,
+"n": 3
+},
+"pair_total_size_to_bar": {
+"rank": 162,
+"median_nll": 0.28635,
+"n": 3
+},
+"row_longest_run_colour_column": {
+"rank": 163,
+"median_nll": 0.27927,
+"n": 3
+},
+"route_between_marks_laid_out_straight": {
+"rank": 164,
+"median_nll": 0.27703,
+"n": 3
+},
+"objects_overlaid_in_reading_order": {
+"rank": 165,
+"median_nll": 0.2718,
+"n": 3
+},
+"object_widths_as_bars_top_to_bottom": {
+"rank": 166,
+"median_nll": 0.27052,
+"n": 3
+},
+"shapes_matched_by_colour_row": {
+"rank": 167,
+"median_nll": 0.26874,
+"n": 3
+},
+"colour_count_difference_bar": {
+"rank": 168,
+"median_nll": 0.26768,
+"n": 3
+},
+"dot_count_sets_quarter_turns": {
+"rank": 169,
+"median_nll": 0.26748,
+"n": 3
+},
+"row_with_most_cells": {
+"rank": 170,
+"median_nll": 0.26649,
+"n": 3
+},
+"shapes_left_not_right_row": {
+"rank": 171,
+"median_nll": 0.26622,
+"n": 3
+},
+"count_rotated_matches_as_column_bar": {
+"rank": 172,
+"median_nll": 0.26579,
+"n": 3
+},
+"three_panel_all_common_row": {
+"rank": 173,
+"median_nll": 0.2638,
+"n": 3
+},
+"roll_rows_by_leading_colour_value": {
+"rank": 174,
+"median_nll": 0.25989,
+"n": 3
+},
+"degree_histogram_four_columns": {
+"rank": 175,
+"median_nll": 0.25915,
+"n": 3
+},
+"dumbbell_bridge_count_bar": {
+"rank": 176,
+"median_nll": 0.25802,
+"n": 3
+},
+"digit_pair_chequered_rectangle": {
+"rank": 177,
+"median_nll": 0.25287,
+"n": 3
+},
+"fold_horizontal_count_overlap_cells_to_column": {
+"rank": 178,
+"median_nll": 0.25182,
+"n": 3
+},
+"row_mode_colour_count_column": {
+"rank": 179,
+"median_nll": 0.25168,
+"n": 3
+},
+"count_matches_as_square": {
+"rank": 180,
+"median_nll": 0.24829,
+"n": 3
+},
+"shape_perimeter_length_bar": {
+"rank": 181,
+"median_nll": 0.24792,
+"n": 3
+},
+"longest_segment_row": {
+"rank": 182,
+"median_nll": 0.24499,
+"n": 3
+},
+"bar_length_divided_by_dots": {
+"rank": 183,
+"median_nll": 0.24411,
+"n": 3
+},
+"digit_table_append_column_sums": {
+"rank": 184,
+"median_nll": 0.24345,
+"n": 3
+},
+"pairwise_common_ab_not_c_row": {
+"rank": 185,
+"median_nll": 0.24333,
+"n": 3
+},
+"pair_distance_to_bar": {
+"rank": 186,
+"median_nll": 0.2429,
+"n": 3
+},
+"legend_size_bucket_histogram": {
+"rank": 187,
+"median_nll": 0.2423,
+"n": 3
+},
+"weave_condense_to_crossing_grid": {
+"rank": 188,
+"median_nll": 0.24149,
+"n": 3
+},
+"fold_diagonal_crop_to_triangle_bbox": {
+"rank": 189,
+"median_nll": 0.24069,
+"n": 3
+},
+"compact_left_count_colour": {
+"rank": 190,
+"median_nll": 0.24064,
+"n": 3
+},
+"legend_blob_dominant_colour_sizes": {
+"rank": 191,
+"median_nll": 0.23982,
+"n": 3
+},
+"selector_single_mark_crops_marked_panel_to_content": {
+"rank": 192,
+"median_nll": 0.23747,
+"n": 3
+},
+"textured_block_unit_tile_extracted": {
+"rank": 193,
+"median_nll": 0.23595,
+"n": 3
+},
+"texture_hole_count_bar": {
+"rank": 194,
+"median_nll": 0.23382,
+"n": 3
+},
+"roll_rows_right_by_index": {
+"rank": 195,
+"median_nll": 0.23279,
+"n": 3
+},
+"legend_colour_object_width_bar": {
+"rank": 196,
+"median_nll": 0.23097,
+"n": 3
+},
+"columns_roll_up_by_cell_count": {
+"rank": 197,
+"median_nll": 0.22705,
+"n": 3
+},
+"palette_orders_object_lineup": {
+"rank": 198,
+"median_nll": 0.22417,
+"n": 3
+},
+"rectangles_lineup_by_area": {
+"rank": 199,
+"median_nll": 0.2229,
+"n": 3
+},
+"key_colour_count_bar": {
+"rank": 200,
+"median_nll": 0.22266,
+"n": 3
+},
+"key_table_chain_three_panels": {
+"rank": 201,
+"median_nll": 0.22204,
+"n": 3
+},
+"lineup_by_colour_value": {
+"rank": 202,
+"median_nll": 0.22033,
+"n": 3
+},
+"selector_single_mark_outputs_panel_transposed": {
+"rank": 203,
+"median_nll": 0.21974,
+"n": 3
+},
+"reverse_coloured_cells_in_place": {
+"rank": 204,
+"median_nll": 0.21714,
+"n": 3
+},
+"heavy_colours_sink_light_colours_float": {
+"rank": 205,
+"median_nll": 0.21404,
+"n": 3
+},
+"legend_colour_ascending_count_bars": {
+"rank": 206,
+"median_nll": 0.21228,
+"n": 3
+},
+"rows_first_last_cell_match": {
+"rank": 207,
+"median_nll": 0.2114,
+"n": 3
+},
+"row_most_distinct_colours": {
+"rank": 208,
+"median_nll": 0.21051,
+"n": 3
+},
+"object_sizes_as_rows": {
+"rank": 209,
+"median_nll": 0.21032,
+"n": 3
+},
+"single_glyph_cropped_pointing_up": {
+"rank": 210,
+"median_nll": 0.20929,
+"n": 3
+},
+"scale_scene_to_anchor_frame_size": {
+"rank": 211,
+"median_nll": 0.20876,
+"n": 3
+},
+"winding_path_graph_straightened": {
+"rank": 212,
+"median_nll": 0.20868,
+"n": 3
+},
+"legend_row_values_ranked_to_palette": {
+"rank": 213,
+"median_nll": 0.20793,
+"n": 3
+},
+"colour_bbox_aspect_bars": {
+"rank": 214,
+"median_nll": 0.20783,
+"n": 3
+},
+"component_sizes_as_bar_rows": {
+"rank": 215,
+"median_nll": 0.20773,
+"n": 3
+},
+"palette_orders_histogram_columns": {
+"rank": 216,
+"median_nll": 0.20577,
+"n": 3
+},
+"crop_piece_fitting_hole": {
+"rank": 217,
+"median_nll": 0.20542,
+"n": 3
+},
+"column_distinct_colour_count_row": {
+"rank": 218,
+"median_nll": 0.20536,
+"n": 3
+},
+"column_matching_key_sequence": {
+"rank": 219,
+"median_nll": 0.20312,
+"n": 3
+},
+"column_with_most_colours": {
+"rank": 220,
+"median_nll": 0.20247,
+"n": 3
+},
+"downscale_3x3_top_left_cell": {
+"rank": 221,
+"median_nll": 0.19899,
+"n": 3
+},
+"three_panel_union_row": {
+"rank": 222,
+"median_nll": 0.19694,
+"n": 3
+},
+"geodesic_distance_digits": {
+"rank": 223,
+"median_nll": 0.1964,
+"n": 3
+},
+"legend_object_hole_count_bars": {
+"rank": 224,
+"median_nll": 0.19455,
+"n": 3
+},
+"expand_run_length_code_to_bars": {
+"rank": 225,
+"median_nll": 0.1942,
+"n": 3
+},
+"holes_lined_up_as_solid_pieces": {
+"rank": 226,
+"median_nll": 0.19413,
+"n": 3
+},
+"sort_column_cells_descending": {
+"rank": 227,
+"median_nll": 0.19264,
+"n": 3
+},
+"colour_cell_histogram_rows_by_freq": {
+"rank": 228,
+"median_nll": 0.18909,
+"n": 3
+},
+"panel_fillcount_bars_row": {
+"rank": 229,
+"median_nll": 0.18867,
+"n": 3
+},
+"cell_recolour_by_neighbour_count_parity": {
+"rank": 230,
+"median_nll": 0.18822,
+"n": 3
+},
+"digit_row_lookup_into_palette": {
+"rank": 231,
+"median_nll": 0.18742,
+"n": 3
+},
+"colour_mean_row_position_dots": {
+"rank": 232,
+"median_nll": 0.18681,
+"n": 3
+},
+"odd_size_object_crop": {
+"rank": 233,
+"median_nll": 0.18648,
+"n": 3
+},
+"three_panel_exactly_two_row": {
+"rank": 234,
+"median_nll": 0.18535,
+"n": 3
+},
+"panel_most_cells": {
+"rank": 235,
+"median_nll": 0.18473,
+"n": 3
+},
+"sort_columns_by_cell_count": {
+"rank": 236,
+"median_nll": 0.18416,
+"n": 3
+},
+"cell_min_nonzero_in_3x3_window": {
+"rank": 237,
+"median_nll": 0.18254,
+"n": 3
+},
+"legend_colour_size_bar_table": {
+"rank": 238,
+"median_nll": 0.18128,
+"n": 3
+},
+"column_object_touch_count_row": {
+"rank": 239,
+"median_nll": 0.18063,
+"n": 3
+},
+"diagonal_above_slide_left_below_fall": {
+"rank": 240,
+"median_nll": 0.18037,
+"n": 3
+},
+"shape_row_cell_counts_as_bars": {
+"rank": 241,
+"median_nll": 0.17608,
+"n": 3
+},
+"lineup_by_cell_count": {
+"rank": 242,
+"median_nll": 0.17551,
+"n": 3
+},
+"crop_glyph_with_unique_heading": {
+"rank": 243,
+"median_nll": 0.17525,
+"n": 3
+},
+"key_table_overlay_vstack": {
+"rank": 244,
+"median_nll": 0.17356,
+"n": 3
+},
+"lattice_cells_to_pixels": {
+"rank": 245,
+"median_nll": 0.17212,
+"n": 3
+},
+"three_panel_exactly_once_row": {
+"rank": 246,
+"median_nll": 0.1703,
+"n": 3
+},
+"swatches_to_colour_staircase": {
+"rank": 247,
+"median_nll": 0.16908,
+"n": 3
+},
+"crop_only_asymmetric_object": {
+"rank": 248,
+"median_nll": 0.16889,
+"n": 3
+},
+"stripe_period_as_grey_bar": {
+"rank": 249,
+"median_nll": 0.16762,
+"n": 3
+},
+"three_cell_colour_crop": {
+"rank": 250,
+"median_nll": 0.16615,
+"n": 3
+},
+"single_column_fewest_colours": {
+"rank": 251,
+"median_nll": 0.16581,
+"n": 3
+},
+"top_k_rows_by_density": {
+"rank": 252,
+"median_nll": 0.16474,
+"n": 3
+},
+"crop_largest_rotate_tile_2x2": {
+"rank": 253,
+"median_nll": 0.16292,
+"n": 3
+},
+"objects_lined_up_by_column_bottom_aligned": {
+"rank": 254,
+"median_nll": 0.16046,
+"n": 3
+},
+"digit_cell_repeats_shape": {
+"rank": 255,
+"median_nll": 0.15956,
+"n": 3
+},
+"adjacency_table_of_network": {
+"rank": 256,
+"median_nll": 0.15879,
+"n": 3
+},
+"legend_colour_bbox_area_bar": {
+"rank": 257,
+"median_nll": 0.15861,
+"n": 3
+},
+"blend_most_common_four_tie_key": {
+"rank": 258,
+"median_nll": 0.15803,
+"n": 3
+},
+"colours_by_count_right_staircase": {
+"rank": 259,
+"median_nll": 0.15802,
+"n": 3
+},
+"rise_rotate_rows_recoloured_by_count": {
+"rank": 260,
+"median_nll": 0.15563,
+"n": 3
+},
+"rotate_gravity_stacks_coloured_by_height": {
+"rank": 261,
+"median_nll": 0.15563,
+"n": 3
+},
+"texture_repeating_unit_extracted": {
+"rank": 262,
+"median_nll": 0.15473,
+"n": 3
+},
+"crop_glyph_aimed_at_grey_marker": {
+"rank": 263,
+"median_nll": 0.15453,
+"n": 3
+},
+"touching_group_count_bar": {
+"rank": 264,
+"median_nll": 0.1537,
+"n": 3
+},
+"cell_neighbour_count_clipped": {
+"rank": 265,
+"median_nll": 0.15298,
+"n": 3
+},
+"cell_max_in_3x3_window": {
+"rank": 266,
+"median_nll": 0.15206,
+"n": 3
+},
+"selector_marked_panels_cropped_and_joined": {
+"rank": 267,
+"median_nll": 0.15188,
+"n": 3
+},
+"later_duplicates_in_row_turn_grey": {
+"rank": 268,
+"median_nll": 0.15173,
+"n": 3
+},
+"nearest_object_colour_per_corner": {
+"rank": 269,
+"median_nll": 0.15122,
+"n": 3
+},
+"colour_bbox_area_bars": {
+"rank": 270,
+"median_nll": 0.15037,
+"n": 3
+},
+"stack_by_width_mirror_grey_frame": {
+"rank": 271,
+"median_nll": 0.14938,
+"n": 3
+},
+"selector_border_marks_select_corner_or_edge_subset": {
+"rank": 272,
+"median_nll": 0.14844,
+"n": 3
+},
+"marked_rows_slide_right_marked_columns_fall": {
+"rank": 273,
+"median_nll": 0.14782,
+"n": 2
+},
+"column_run_count_bars": {
+"rank": 274,
+"median_nll": 0.14728,
+"n": 3
+},
+"legend_shape_perimeter_bar_table": {
+"rank": 275,
+"median_nll": 0.146,
+"n": 3
+},
+"roll_rows_alternating_direction": {
+"rank": 276,
+"median_nll": 0.14396,
+"n": 3
+},
+"squash_both_keep_odd_rows_and_columns": {
+"rank": 277,
+"median_nll": 0.1439,
+"n": 3
+},
+"objects_into_square_grid_reading_order": {
+"rank": 278,
+"median_nll": 0.14288,
+"n": 3
+},
+"lineup_by_height": {
+"rank": 279,
+"median_nll": 0.14266,
+"n": 3
+},
+"sort_columns_by_top_cell_colour": {
+"rank": 280,
+"median_nll": 0.14103,
+"n": 3
+},
+"sort_rows_by_cell_count": {
+"rank": 281,
+"median_nll": 0.13844,
+"n": 3
+},
+"rows_prime_cell_count": {
+"rank": 282,
+"median_nll": 0.13817,
+"n": 3
+},
+"collapse_row_runs_packed_left": {
+"rank": 283,
+"median_nll": 0.13755,
+"n": 3
+},
+"life_one_step": {
+"rank": 284,
+"median_nll": 0.13719,
+"n": 3
+},
+"key_table_overlay_priority_fallback": {
+"rank": 285,
+"median_nll": 0.137,
+"n": 3
+},
+"digit_rows_sum_bars": {
+"rank": 286,
+"median_nll": 0.13645,
+"n": 3
+},
+"rows_won_per_colour_two_columns": {
+"rank": 287,
+"median_nll": 0.13614,
+"n": 3
+},
+"digit_table_append_row_sums": {
+"rank": 288,
+"median_nll": 0.13609,
+"n": 3
+},
+"dot_counts_rectangle_striped": {
+"rank": 289,
+"median_nll": 0.13598,
+"n": 3
+},
+"bars_sum_concatenated_row": {
+"rank": 290,
+"median_nll": 0.13518,
+"n": 3
+},
+"shapes_common_both_row": {
+"rank": 291,
+"median_nll": 0.13351,
+"n": 3
+},
+"selector_marks_select_panel_pair_joined_with_blank_gap": {
+"rank": 292,
+"median_nll": 0.13287,
+"n": 3
+},
+"columns_matching_common_colour_count": {
+"rank": 293,
+"median_nll": 0.13272,
+"n": 3
+},
+"glyphs_lined_up_in_heading_order": {
+"rank": 294,
+"median_nll": 0.13051,
+"n": 3
+},
+"objects_tower_by_size_centred": {
+"rank": 295,
+"median_nll": 0.13041,
+"n": 3
+},
+"legend_frame_content_colour_pairs": {
+"rank": 296,
+"median_nll": 0.12977,
+"n": 3
+},
+"left_shapes_grouped_row": {
+"rank": 297,
+"median_nll": 0.12965,
+"n": 3
+},
+"stack_height_difference_column": {
+"rank": 298,
+"median_nll": 0.12854,
+"n": 3
+},
+"panels_cell_counts_bars_sorted_ascending": {
+"rank": 299,
+"median_nll": 0.12782,
+"n": 3
+},
+"shapes_union_row": {
+"rank": 300,
+"median_nll": 0.12687,
+"n": 3
+},
+"overlap_count_bucket_colour": {
+"rank": 301,
+"median_nll": 0.1265,
+"n": 3
+},
+"crop_window_around_anchor": {
+"rank": 302,
+"median_nll": 0.12639,
+"n": 3
+},
+"objects_sorted_by_colour_row": {
+"rank": 303,
+"median_nll": 0.12615,
+"n": 3
+},
+"highlight_exactly_two_of_three": {
+"rank": 304,
+"median_nll": 0.12568,
+"n": 3
+},
+"voronoi_by_nearest_seed": {
+"rank": 305,
+"median_nll": 0.12552,
+"n": 3
+},
+"frame_colour_content_colour_table": {
+"rank": 306,
+"median_nll": 0.12453,
+"n": 3
+},
+"rows_roll_right_by_cell_count": {
+"rank": 307,
+"median_nll": 0.12288,
+"n": 3
+},
+"selector_marked_panels_assembled_row_reading_order": {
+"rank": 308,
+"median_nll": 0.12125,
+"n": 3
+},
+"mirror_complete_rise_hollow": {
+"rank": 309,
+"median_nll": 0.12102,
+"n": 3
+},
+"remove_cells_under_two_same_neighbours": {
+"rank": 310,
+"median_nll": 0.12085,
+"n": 3
+},
+"two_colour_rows_only": {
+"rank": 311,
+"median_nll": 0.12083,
+"n": 3
+},
+"roll_rows_right_by_first_cell_index": {
+"rank": 312,
+"median_nll": 0.1195,
+"n": 3
+},
+"rows_sorted_by_count_compact_majority_colour": {
+"rank": 313,
+"median_nll": 0.11855,
+"n": 3
+},
+"row_containing_key_sequence": {
+"rank": 314,
+"median_nll": 0.11764,
+"n": 3
+},
+"stack_k_from_bar_majority": {
+"rank": 315,
+"median_nll": 0.11539,
+"n": 3
+},
+"cut_along_grey_line_parts_side_by_side": {
+"rank": 316,
+"median_nll": 0.11531,
+"n": 3
+},
+"central_three_rows": {
+"rank": 317,
+"median_nll": 0.11512,
+"n": 3
+},
+"crop_largest_bounding_box": {
+"rank": 318,
+"median_nll": 0.1151,
+"n": 3
+},
+"row_unique_colour_cells_only": {
+"rank": 319,
+"median_nll": 0.11489,
+"n": 3
+},
+"ising_relax_even_cells_one_step": {
+"rank": 320,
+"median_nll": 0.11464,
+"n": 3
+},
+"symmetric_columns_only": {
+"rank": 321,
+"median_nll": 0.11456,
+"n": 3
+},
+"square_ring_rotate_by_centre_digit": {
+"rank": 322,
+"median_nll": 0.11417,
+"n": 3
+},
+"keep_longest_run_per_row": {
+"rank": 323,
+"median_nll": 0.11399,
+"n": 3
+},
+"border_marked_rows_reversed_columns_sorted": {
+"rank": 324,
+"median_nll": 0.11389,
+"n": 3
+},
+"same_colour_pairs_side_by_side_rows": {
+"rank": 325,
+"median_nll": 0.11333,
+"n": 3
+},
+"grid_beside_its_half_scale_copy": {
+"rank": 326,
+"median_nll": 0.11273,
+"n": 3
+},
+"overlay_then_outline_key": {
+"rank": 327,
+"median_nll": 0.11127,
+"n": 3
+},
+"map_cells_expand_to_matching_objects": {
+"rank": 328,
+"median_nll": 0.11114,
+"n": 3
+},
+"sort_rows_by_leading_colour": {
+"rank": 329,
+"median_nll": 0.11082,
+"n": 3
+},
+"each_colour_column_projection_stacked": {
+"rank": 330,
+"median_nll": 0.11016,
+"n": 3
+},
+"selector_binary_pattern_differs_from_panel_occupancy_at_one_cell_selects_it": {
+"rank": 331,
+"median_nll": 0.11014,
+"n": 3
+},
+"object_count_staircase": {
+"rank": 332,
+"median_nll": 0.10755,
+"n": 3
+},
+"row_majority_column": {
+"rank": 333,
+"median_nll": 0.10741,
+"n": 3
+},
+"bars_max_row_min_row": {
+"rank": 334,
+"median_nll": 0.10735,
+"n": 3
+},
+"frame_interior_inverted": {
+"rank": 335,
+"median_nll": 0.10698,
+"n": 3
+},
+"selector_mark_count_selects_nth_panel_reading_order": {
+"rank": 336,
+"median_nll": 0.10649,
+"n": 3
+},
+"scene_window_sized_by_anchor_radius": {
+"rank": 337,
+"median_nll": 0.10612,
+"n": 3
+},
+"left_dots_delete_marked_rows": {
+"rank": 338,
+"median_nll": 0.10608,
+"n": 3
+},
+"deinterleave_columns_even_odd": {
+"rank": 339,
+"median_nll": 0.10544,
+"n": 3
+},
+"row_transition_count_bars": {
+"rank": 340,
+"median_nll": 0.10441,
+"n": 3
+},
+"mirror_matching_columns_only": {
+"rank": 341,
+"median_nll": 0.10431,
+"n": 3
+},
+"selector_single_mark_outputs_panel_dominant_colour_block": {
+"rank": 342,
+"median_nll": 0.104,
+"n": 3
+},
+"shapes_symmetric_difference_row": {
+"rank": 343,
+"median_nll": 0.10343,
+"n": 3
+},
+"scale_down_to_anchor_block_size": {
+"rank": 344,
+"median_nll": 0.10332,
+"n": 3
+},
+"mask_select_with_stray_fallback": {
+"rank": 345,
+"median_nll": 0.10315,
+"n": 3
+},
+"panel_objects_cropped_and_joined": {
+"rank": 346,
+"median_nll": 0.10309,
+"n": 3
+},
+"quadrant_objects_to_2x2": {
+"rank": 347,
+"median_nll": 0.10283,
+"n": 3
+},
+"crop_tallest_object": {
+"rank": 348,
+"median_nll": 0.10167,
+"n": 3
+},
+"panel_marker_menu_gravity_direction": {
+"rank": 349,
+"median_nll": 0.10045,
+"n": 3
+},
+"radial_gradient_from_top_left_corner": {
+"rank": 350,
+"median_nll": 0.09889,
+"n": 3
+},
+"region_sizes_bars": {
+"rank": 351,
+"median_nll": 0.0971,
+"n": 3
+},
+"majority_smoothing_3x3": {
+"rank": 352,
+"median_nll": 0.09636,
+"n": 3
+},
+"chokepoint_cells_marked": {
+"rank": 353,
+"median_nll": 0.09573,
+"n": 3
+},
+"legend_row_dominant_colour_column": {
+"rank": 354,
+"median_nll": 0.09563,
+"n": 3
+},
+"mark_centre_of_diverse_3x3": {
+"rank": 355,
+"median_nll": 0.09549,
+"n": 3
+},
+"objects_staircase_by_size": {
+"rank": 356,
+"median_nll": 0.09485,
+"n": 3
+},
+"cell_neighbour_count_digits": {
+"rank": 357,
+"median_nll": 0.09461,
+"n": 3
+},
+"selector_marker_picks_quadrant": {
+"rank": 358,
+"median_nll": 0.09437,
+"n": 3
+},
+"odd_shape_object_crop": {
+"rank": 359,
+"median_nll": 0.09413,
+"n": 3
+},
+"quadrant_recolour_rotate_crop": {
+"rank": 360,
+"median_nll": 0.09398,
+"n": 3
+},
+"selector_distinct_colour_count_selects_panel_rank": {
+"rank": 361,
+"median_nll": 0.09395,
+"n": 3
+},
+"sort_rows_lexicographically": {
+"rank": 362,
+"median_nll": 0.09237,
+"n": 3
+},
+"zip_row_pairs_into_one_row": {
+"rank": 363,
+"median_nll": 0.09231,
+"n": 3
+},
+"mark_cells_with_local_colour_tie": {
+"rank": 364,
+"median_nll": 0.0922,
+"n": 3
+},
+"sand_settles_fully": {
+"rank": 365,
+"median_nll": 0.09164,
+"n": 3
+},
+"columns_even_colour_sum": {
+"rank": 366,
+"median_nll": 0.09098,
+"n": 3
+},
+"colour_histogram_tallest_left_2x": {
+"rank": 367,
+"median_nll": 0.0906,
+"n": 3
+},
+"rows_above_average_density": {
+"rank": 368,
+"median_nll": 0.09025,
+"n": 3
+},
+"row_object_touch_count_column": {
+"rank": 369,
+"median_nll": 0.08986,
+"n": 3
+},
+"stack_k_from_bar_union": {
+"rank": 370,
+"median_nll": 0.08961,
+"n": 3
+},
+"column_majority_object_colour_row": {
+"rank": 371,
+"median_nll": 0.08938,
+"n": 3
+},
+"mode_selector_and_or_xor": {
+"rank": 372,
+"median_nll": 0.08938,
+"n": 3
+},
+"panels_and_crop_upscale_2x": {
+"rank": 373,
+"median_nll": 0.08923,
+"n": 3
+},
+"stack_pop_top_to_second_stack": {
+"rank": 374,
+"median_nll": 0.08827,
+"n": 3
+},
+"two_pieces_join_into_rectangle": {
+"rank": 375,
+"median_nll": 0.08813,
+"n": 3
+},
+"crop_largest_touching_group": {
+"rank": 376,
+"median_nll": 0.08781,
+"n": 3
+},
+"swap_rows_and_columns_indicated_by_markers": {
+"rank": 377,
+"median_nll": 0.08746,
+"n": 3
+},
+"sort_rows_by_distinct_colour_count": {
+"rank": 378,
+"median_nll": 0.08738,
+"n": 3
+},
+"dot_count_scales_lone_shape": {
+"rank": 379,
+"median_nll": 0.08733,
+"n": 3
+},
+"row_run_count_bar": {
+"rank": 380,
+"median_nll": 0.0861,
+"n": 3
+},
+"gravity_then_bottom_colour": {
+"rank": 381,
+"median_nll": 0.08582,
+"n": 3
+},
+"fold_left_half_onto_right": {
+"rank": 382,
+"median_nll": 0.08504,
+"n": 3
+},
+"hidden_part_of_lower_rectangle": {
+"rank": 383,
+"median_nll": 0.08498,
+"n": 3
+},
+"gradient_by_distance_from_seed": {
+"rank": 384,
+"median_nll": 0.08474,
+"n": 2
+},
+"two_floods_meeting_cells": {
+"rank": 385,
+"median_nll": 0.08463,
+"n": 2
+},
+"bar_pairs_summed": {
+"rank": 386,
+"median_nll": 0.08457,
+"n": 3
+},
+"connect_dots_in_colour_order": {
+"rank": 387,
+"median_nll": 0.08444,
+"n": 3
+},
+"every_third_row_only": {
+"rank": 388,
+"median_nll": 0.08444,
+"n": 3
+},
+"minimap_masks_field_blocks": {
+"rank": 389,
+"median_nll": 0.08396,
+"n": 3
+},
+"monochrome_columns_only": {
+"rank": 390,
+"median_nll": 0.08268,
+"n": 3
+},
+"cells_advance_right_by_colour_value": {
+"rank": 391,
+"median_nll": 0.08213,
+"n": 3
+},
+"grey_takes_nearest_colour_in_row": {
+"rank": 392,
+"median_nll": 0.08205,
+"n": 3
+},
+"crop_largest_mirror_pair": {
+"rank": 393,
+"median_nll": 0.08199,
+"n": 3
+},
+"top_edge_colour_projection": {
+"rank": 394,
+"median_nll": 0.08197,
+"n": 3
+},
+"anim_shift_columns_wrap": {
+"rank": 395,
+"median_nll": 0.08183,
+"n": 3
+},
+"stack_merge_two_columns_alternating": {
+"rank": 396,
+"median_nll": 0.08175,
+"n": 3
+},
+"crop_least_frequent_colour_cells": {
+"rank": 397,
+"median_nll": 0.08172,
+"n": 3
+},
+"overlay_then_fill_holes_key": {
+"rank": 398,
+"median_nll": 0.08163,
+"n": 3
+},
+"digit_row_to_height_bars": {
+"rank": 399,
+"median_nll": 0.08101,
+"n": 3
+},
+"rotate_marker_corner_to_top_left": {
+"rank": 400,
+"median_nll": 0.08034,
+"n": 3
+}
+}

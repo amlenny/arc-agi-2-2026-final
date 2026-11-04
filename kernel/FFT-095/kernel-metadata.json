@@ -1,0 +1,23 @@
+{
+ "id": "<owner>/crucible-arc-agi-2-fft-095",
+ "title": "CRUCIBLE ARC AGI 2 FFT 095",
+ "code_file": "crucible-parity-kernel.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": "true",
+ "enable_gpu": "true",
+ "machine_shape": "NvidiaL4",
+ "docker_image": "gcr.io/kaggle-private-byod/python@sha256:320043e14c68293f1c946585b9257123385205a58af4b94b17d31868cae4e868",
+ "enable_tpu": "false",
+ "enable_internet": "false",
+ "dataset_sources": [],
+ "competition_sources": [
+  "arc-prize-2026-arc-agi-2"
+ ],
+ "kernel_sources": [
+  "sorokin/pip-install-unsloth-flash-patch"
+ ],
+ "model_sources": [
+  "<owner>/crucible-fft095-vol21as161-20261027/transformers/bfloat16/1"
+ ]
+}

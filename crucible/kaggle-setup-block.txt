@@ -1,0 +1,78 @@
+# ---------------------------------- setup ----------------------------------
+# The base image ships two packages at versions this run cannot use: peft's LoRA path requires a
+# torchao newer than the image's, and transformers 5.0.0 has no parser for model_type qwen3_5 —
+# it raises KeyError on the config before any weights load. Corrected wheels travel as attached
+# datasets and install from local files only: --no-index consults no package index and fetches
+# nothing, so this works with internet disabled.
+#
+# Installing here, above the harness, is what keeps the harness's preflight a real check: the
+# harness asserts what it finds and never alters it.
+import os as _o
+import subprocess as _sp
+import sys as _s
+from importlib.metadata import version as _ver, PackageNotFoundError as _PNF
+
+# [(wheels directory, exact pin), ...]. Exact pins: an unpinned name is satisfied by whatever
+# version is already present, and pip then does nothing.
+_INSTALLS = __INSTALLS__
+
+
+def _locate(want_dir, pkg):
+    """Return the directory holding pkg's wheel, preferring the configured path.
+
+    Datasets mount at /kaggle/input/<slug> or at /kaggle/input/datasets/<owner>/<slug>, and both
+    forms appear in the same session; models mount at
+    /kaggle/input/models/<owner>/<model>/<framework>/<variation>/<version>. When the configured
+    path is absent, the fallback matches on the WHEEL NAME rather than on holding any wheel at
+    all: with more than one wheels dataset attached, "contains a .whl" identifies nothing.
+    """
+    if _o.path.isdir(want_dir):
+        return want_dir
+    # A wheel is named <distribution>-<version>-...: the distribution part carries underscores
+    # for hyphens, and a hyphen separates it from the version. Normalize the package name only —
+    # normalizing the filename too would destroy that separator and match nothing.
+    prefix = pkg.replace("-", "_").lower() + "-"
+    hits = []
+    for _dp, _dn, _fn in _o.walk("/kaggle/input"):
+        if any(f.lower().startswith(prefix) and f.endswith(".whl") for f in _fn):
+            hits.append(_dp)
+    if len(hits) == 1:
+        print(f"  {pkg}: not at {want_dir}; found its wheel in {hits[0]}", flush=True)
+        return hits[0]
+    print(f"  expected {pkg} wheels at {want_dir} — not found, and {len(hits)} directories hold "
+          f"a matching wheel. Actual /kaggle/input:", flush=True)
+    if not _o.path.isdir("/kaggle/input"):
+        print("    /kaggle/input does not exist — nothing is attached at all")
+    else:
+        for _dp, _dn, _fn in _o.walk("/kaggle/input"):
+            if _dp[len("/kaggle/input"):].count(_o.sep) > 6:
+                _dn[:] = []
+                continue
+            print(f"    {_dp}" + (f"   files: {sorted(_fn)[:4]}" if _fn else ""))
+    raise SystemExit(f"FAIL: {pkg} wheels not attached at {want_dir} — add the dataset to "
+                     f"dataset_sources in kernel-metadata.json")
+
+
+for _spec_dir, _require in _INSTALLS:
+    _pkg, _, _want = _require.partition("==")
+    _dir = _locate(_spec_dir, _pkg)
+    print(f"== setup: installing {_require} from {_dir} (offline, --no-index) ==", flush=True)
+    _r = _sp.run([_s.executable, "-m", "pip", "install", "-q", "--no-index", "--upgrade",
+                  "--find-links", _dir, _require], capture_output=True, text=True)
+    if _r.returncode != 0:
+        print(_r.stdout[-2000:])
+        print(_r.stderr[-2000:])
+        raise SystemExit(f"FAIL: installing {_require} failed; the run cannot proceed")
+    # Verify the install achieved what it claimed. pip exits 0 when a requirement is already
+    # satisfied, so a successful return says nothing about which version is now present.
+    try:
+        _have = _ver(_pkg)
+    except _PNF:
+        raise SystemExit(f"FAIL: {_pkg} is not installed after a successful pip run")
+    if _want and _have != _want:
+        raise SystemExit(f"FAIL: {_pkg} is {_have}, expected {_want}. The install reported "
+                         f"success without taking effect; check that the wheel in {_dir} matches "
+                         f"this interpreter and platform.")
+    print(f"  {_pkg} {_have}", flush=True)
+print("", flush=True)
+

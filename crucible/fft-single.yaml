@@ -1,0 +1,8 @@
+# accelerate config for crucible-fft-train.py on ONE GPU (Colab A100 80GB pilot, or a smoke run on an RTX 3060).
+# No FSDP: the model is one process. Weights stay fp32 masters (--master-dtype fp32); compute in bf16.
+# Use with --optim adamw8bit --grad-ckpt on.
+compute_environment: LOCAL_MACHINE
+distributed_type: 'NO'
+num_processes: 1
+num_machines: 1
+mixed_precision: 'bf16'
