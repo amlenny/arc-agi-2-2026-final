@@ -32,7 +32,7 @@ The repo holds training code, kernel and inference code, data-building code and 
 ## Computational environment
 
 - **Data building, packing, soup, kernel self-test:** CPU, Python 3.12 with the versions in `requirements.txt`. Each merged model is about 7.3 GB on disk. A recorded compose build ran under a system Python 3.14. `ours-fresh-20261003/` is 1.8 GB on disk.
-- **Training:** one Colab NVIDIA A100 80 GB per hop, single process (`fft-single.yaml`, bf16 compute, fp32 master weights). Each step is 32 rows of 16,384 tokens. **The library versions on the Colab runtimes were not recorded.** The runs used the image's preinstalled packages.
+- **Training:** one Colab NVIDIA A100 80 GB per hop, single process (`fft-single.yaml`, bf16 compute, fp32 master weights). Each step is 32 rows of 16,384 tokens. The training runs did not record their library versions; they used the image's preinstalled packages. From the Colab logs: NVIDIA A100-SXM4-80GB, 81,920 MiB; Python 3.13.15, later 3.13.16; and one job on a Colab runtime between the FFT-095 and FFT-099 runs printed torch 2.13.0+cu130, transformers 5.19.0, peft 0.21.2, bitsandbytes 0.50.2.
 - **Kernel:** Kaggle, 4 x NVIDIA L4, internet off, Docker image digest in each `kernel-metadata.json`. Unsloth and flash-attn install from the public kernel `sorokin/pip-install-unsloth-flash-patch`, attached as a kernel source.
 
 ## Order of steps
